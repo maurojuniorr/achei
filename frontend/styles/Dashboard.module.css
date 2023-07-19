@@ -1,0 +1,57 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #000000;
+	color: #00ff00;
+}
+
+.contentContainer {
+	display: flex;
+	flex-grow: 1;
+}
+
+.sidebar {
+	flex: 0 0 200px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.menu {
+	list-style-type: none;
+	padding: 0;
+}
+
+.menu li {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.content {
+	flex-grow: 1;
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+.togglePostsButton {
+	background-color: #00ff00;
+	color: #ffffff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.logoutButton {
+	background-color: #00ff00;
+	color: #ffffff;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
