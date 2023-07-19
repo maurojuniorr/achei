@@ -1,3 +1,4 @@
 {
-	"cSpell.language": "pt,pt-BR,en-US"
+	"cSpell.language": "pt,pt-BR,en-US",
+	"cSpell.enableFiletypes": ["postcss"]
 }

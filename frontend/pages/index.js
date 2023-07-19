@@ -1,11 +1,7 @@
-// 'use client';
-import Head from 'next/head';
-
 import React from 'react';
 import styles from '../styles/Login.module.css';
 import Link from 'next/link';
-
-const Login = () => {
+export default function Login() {
 	const handleLogin = () => {
 		// Lógica para sair do app
 		console.log('Usuário entrou do app');
@@ -22,6 +18,4 @@ const Login = () => {
 			</form>
 		</div>
 	);
-};
-
-export default Login;
+}
