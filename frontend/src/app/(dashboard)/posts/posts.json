@@ -4,6 +4,7 @@
 		"image": "https://via.placeholder.com/300",
 		"likes": 20,
 		"postedBy": "Mia Khalifa",
+		"status": "achado",
 		"nickname": "miakhalifa",
 		"avatar": "https://www.metroworldnews.com.br/resizer/P12vKMzt96jGlNhkZMACTFy4BFw=/1440x1080/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/TQERLOFOJRHYRAP2P2EC2UGTDU.jpg",
 		"description": "Passeio incrível no parque! Passeando com a familia e os doguíneos"
@@ -13,6 +14,7 @@
 		"image": "https://via.placeholder.com/300",
 		"likes": 15,
 		"postedBy": "Jane Smith",
+		"status": "achado",
 		"nickname": "janesmith",
 		"avatar": "https://www.metroworldnews.com.br/resizer/P12vKMzt96jGlNhkZMACTFy4BFw=/1440x1080/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/TQERLOFOJRHYRAP2P2EC2UGTDU.jpg",
 		"description": "Curtindo o dia na praia!"
@@ -22,6 +24,7 @@
 		"image": "https://via.placeholder.com/300",
 		"likes": 15,
 		"postedBy": "Jane Smith",
+		"status": "perdido",
 		"nickname": "janesmith",
 		"avatar": "https://www.metroworldnews.com.br/resizer/P12vKMzt96jGlNhkZMACTFy4BFw=/1440x1080/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/TQERLOFOJRHYRAP2P2EC2UGTDU.jpg",
 		"description": "Curtindo o dia na praia!"
@@ -31,6 +34,7 @@
 		"image": "https://via.placeholder.com/300",
 		"likes": 15,
 		"postedBy": "Jane Smith",
+		"status": "achado",
 		"nickname": "janesmith",
 		"avatar": "https://www.metroworldnews.com.br/resizer/P12vKMzt96jGlNhkZMACTFy4BFw=/1440x1080/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/TQERLOFOJRHYRAP2P2EC2UGTDU.jpg",
 		"description": "Curtindo o dia na praia!"
@@ -40,6 +44,7 @@
 		"image": "https://via.placeholder.com/300",
 		"likes": 15,
 		"postedBy": "Mauro Junior Batista Amazonas",
+		"status": "perdido",
 		"nickname": "mauroamazonas",
 		"avatar": "https://www.metroworldnews.com.br/resizer/P12vKMzt96jGlNhkZMACTFy4BFw=/1440x1080/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/TQERLOFOJRHYRAP2P2EC2UGTDU.jpg",
 		"description": "Curtindo o dia na praia!"
@@ -49,6 +54,7 @@
 		"image": "https://via.placeholder.com/300",
 		"likes": 20,
 		"postedBy": "John Doe",
+		"status": "achado",
 		"nickname": "johndoe",
 		"avatar": "https://www.metroworldnews.com.br/resizer/P12vKMzt96jGlNhkZMACTFy4BFw=/1440x1080/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/TQERLOFOJRHYRAP2P2EC2UGTDU.jpg",
 		"description": "Passeio incrível no parque!"
@@ -58,6 +64,7 @@
 		"image": "https://via.placeholder.com/300",
 		"likes": 15,
 		"postedBy": "Jane Smith",
+		"status": "perdido",
 		"nickname": "janesmith",
 		"avatar": "https://www.metroworldnews.com.br/resizer/P12vKMzt96jGlNhkZMACTFy4BFw=/1440x1080/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/TQERLOFOJRHYRAP2P2EC2UGTDU.jpg",
 		"description": "Curtindo o dia na praia!"
@@ -67,6 +74,7 @@
 		"image": "https://via.placeholder.com/300",
 		"likes": 15,
 		"postedBy": "Jane Smith",
+		"status": "achado",
 		"nickname": "janesmith",
 		"avatar": "https://www.metroworldnews.com.br/resizer/P12vKMzt96jGlNhkZMACTFy4BFw=/1440x1080/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/TQERLOFOJRHYRAP2P2EC2UGTDU.jpg",
 		"description": "Curtindo o dia na praia!"
@@ -76,6 +84,7 @@
 		"image": "https://via.placeholder.com/300",
 		"likes": 15,
 		"postedBy": "Jane Smith",
+		"status": "perdido",
 		"nickname": "janesmith",
 		"avatar": "https://www.metroworldnews.com.br/resizer/P12vKMzt96jGlNhkZMACTFy4BFw=/1440x1080/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/TQERLOFOJRHYRAP2P2EC2UGTDU.jpg",
 		"description": "Curtindo o dia na praia!"
@@ -85,6 +94,7 @@
 		"image": "https://via.placeholder.com/300",
 		"likes": 15,
 		"postedBy": "Jane Smith",
+		"status": "achado",
 		"nickname": "janesmith",
 		"avatar": "https://www.metroworldnews.com.br/resizer/P12vKMzt96jGlNhkZMACTFy4BFw=/1440x1080/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/TQERLOFOJRHYRAP2P2EC2UGTDU.jpg",
 		"description": "Curtindo o dia na praia!"

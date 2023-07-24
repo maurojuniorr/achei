@@ -10,7 +10,9 @@ export default function RootLayout({ children }) {
 	return (
 		<>
 			<Navbar />
-			<div className='h-auto text-center bg-zinc-100'>{children}</div>
+			<div className='h-auto min-h-screen text-center bg-zinc-100'>
+				{children}
+			</div>
 			<Footer />
 		</>
 	);
