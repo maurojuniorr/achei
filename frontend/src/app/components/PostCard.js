@@ -8,7 +8,7 @@ export default function PostCard({ status }) {
 				{postsData.map((post) =>
 					post.status == status ? (
 						<div
-							key={post.id && 'perdido'}
+							key={post.id}
 							className='border bg-white rounded-lg shadow-xl '>
 							<div className='p-4  flex space-x-4  items-center'>
 								<img

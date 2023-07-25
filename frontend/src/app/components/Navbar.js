@@ -1,12 +1,14 @@
 'use client';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
+import logo from '../img/logoacheiBranco.png';
 export default function Navbar() {
 	const pathname = usePathname();
 	return (
-		<header className='flex align-middle  p-5 bg-black text-green-500 justify-between '>
-			<h1 className='text-xl px-5 transition hover:duration-200 hover:text-zinc-50'>
-				Achei
+		<header className='pb-1 px-5 flex items-center   bg-black text-green-500 justify-between '>
+			<h1 className=' text-4xl transition hover:duration-200 hover:text-zinc-50'>
+				<Image src={logo} height={64} alt='Logo' />
 			</h1>
 			<ul className='flex p-0 list-none '>
 				<li
@@ -34,9 +36,11 @@ export default function Navbar() {
 					<Link href='/postar'>Postar</Link>
 				</li>
 			</ul>
-			<button className='border  rounded-md bg-green-900 px-3 py-1 text-white hover:border-green-900 hover:bg-zinc-200 hover:text-black'>
-				<Link href='/login'>Sair</Link>
-			</button>
+			<Link href='/login'>
+				<button className='border  rounded-md bg-green-600 px-3 py-1 text-white hover:border-green-500 hover:bg-zinc-200 hover:text-black'>
+					Sair
+				</button>
+			</Link>
 		</header>
 	);
 }

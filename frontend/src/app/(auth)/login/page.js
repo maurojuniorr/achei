@@ -1,22 +1,19 @@
 import Link from 'next/link';
 import Input from '@/app/components/Input';
+import Image from 'next/image';
+
+import logo from '../../img/logoacheiBranco.png';
 export default function Login() {
 	return (
 		<div className='flex min-h-full flex-col justify-center px-6 py-12 lg:px-8'>
-			<div className='sm:mx-auto sm:w-full sm:max-w-sm'>
-				<img
-					className='mx-auto w-1/2 '
-					src='https://www.fapcom.edu.br/wp-content/uploads/2015/10/Perdi-mas-achei_1.png'
-					alt='Logo ifam'
-				/>
-				{/* <h2 className='mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-200'>
-					Entre com a sua conta
-				</h2> */}
+			<div className='	sm:mx-auto sm:w-full sm:max-w-sm'>
+				<Image src={logo} alt='Logo' />
 			</div>
 
 			<div className='mx-10 mt-10 sm:mx-auto sm:w-full sm:max-w-sm'>
 				<form className='space-y-6' action='#' method='POST'>
 					<Input
+						labelClass=' text-gray-200'
 						label='Email'
 						id='email'
 						name='email'
@@ -25,6 +22,7 @@ export default function Login() {
 					/>
 
 					<Input
+						labelClass=' text-gray-200'
 						label='Senha'
 						id='senha'
 						name='senha'
@@ -34,17 +32,19 @@ export default function Login() {
 					<div className='text-sm'>
 						<a
 							href='#'
-							className='font-semibold text-green-600 hover:text-green-500'>
+							className='font-semibold text-green-500 hover:text-green-600'>
 							Esqueceu a senha?
 						</a>
 					</div>
 
 					<div>
-						<button
-							type='submit'
-							className='flex w-full justify-center rounded-md bg-green-900 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-600'>
-							<a href='/'>Entrar</a>
-						</button>
+						<Link href='/'>
+							<button
+								type='submit'
+								className='flex w-full justify-center rounded-md bg-green-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-green-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-00'>
+								Entrar
+							</button>
+						</Link>
 					</div>
 				</form>
 
@@ -52,7 +52,7 @@ export default function Login() {
 					Não tem conta?
 					<a
 						href='/signup'
-						className='font-semibold leading-6 text-green-600 hover:text-green-500'>
+						className='font-semibold leading-6 text-green-500 hover:text-green-600'>
 						&nbsp; Clique aqui!
 					</a>
 				</p>
