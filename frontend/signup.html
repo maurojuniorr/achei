@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        color: #333333;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cadastro</h1>
+      <form id="signup-form" action="#" method="POST">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" required><br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" required><br><br>
+        <label for="password">Senha:</label>
+        <input type="password" name="password" required><br><br>
+        <input type="submit" value="Cadastrar">
+      </form>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#signup-form').submit(function(event) {
+          event.preventDefault();
+          var formData = $(this).serialize();
+          $.ajax({
+            url: 'http://suaapi.com/cadastro',
+            type: 'POST',
+            data: formData,
+            success: function(response) {
+              alert('Cadastro realizado com sucesso!');
+            },
+            error: function(xhr, status, error) {
+              alert('Erro ao cadastrar usuário. Tente novamente mais tarde.');
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
