@@ -23,6 +23,13 @@ export default function Signup() {
 					/>
 					<Input
 						labelClass='text-gray-200'
+						label='Usuário'
+						id='nickname'
+						name='nickname'
+						type='text'
+					/>
+					<Input
+						labelClass='text-gray-200'
 						label='Email'
 						id='email'
 						name='email'
